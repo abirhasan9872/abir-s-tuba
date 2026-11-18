@@ -1,0 +1,73 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    background-color: rgb(133, 13, 154);
+    color: white;
+    border-bottom-width: 6px;
+    border-bottom-style: solid;
+    border-color: rgb(67, 3, 75);
+    text-align: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+
+}
+
+.side{
+    position: fixed;
+    top: 65px;
+    left: 0;
+    bottom: 0;
+    background-color: blueviolet;
+    width: 60px;
+}
+
+body{
+    padding-left: 60px;
+    padding-top: 66px;
+    padding-bottom: 700px;
+}
+
+.taha{
+    height: 250px;
+    border: solid;
+    border-color: goldenrod;
+    border-width: 5px;
+    border-radius: 15px;
+    
+}
+
+.tutu{
+    margin-left: 25px;
+    margin-top: 2px;
+    background-color: rgb(172, 224, 27);
+    padding: 10px 30px 10px 30px;
+    border-width: 5px;
+    border-color:goldenrod ;
+    border-radius: 20px;
+    color: rgb(244, 244, 231);
+    font-weight: bold;
+
+}
+
+.tutu:hover{
+    cursor: pointer;
+}
+
+
+.taha-im{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* অটোমেটিক রেসপন্সিভ কলাম বানাবে */
+    gap: 15px; /* ছবির মাঝের ফাঁকা জায়গা */
+    padding: 20px;
+}
+
+.taha-im img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* ছবি যেন বিকৃত না হয় */
+    border-radius: 8px; /* কর্নার রাউন্ড করার জন্য */
+}
